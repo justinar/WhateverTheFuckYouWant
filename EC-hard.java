@@ -1,5 +1,6 @@
 package whateverthifuckyouwant;
 public class Whateverthefuckyouwant {
+    Scanner s= new Scanner;
     int piece[][] = new int[3][3];
         int board[][]= new int[6][3];
         System.out.println("give me what your piece looks like mate!");
@@ -11,6 +12,7 @@ public class Whateverthefuckyouwant {
     }
 
     static void populateArray(int array[][]) {
+        Scanner s = new Scanner;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = 3;
