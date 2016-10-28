@@ -2,7 +2,7 @@
 
 Tetris	Difficult - 736a69	ACM Weekly Chal. Oct 21-Oct 31
 
-	Games are fun. Winning is more fun. So why don’t we write a program to play the perfect round of tetris? The first 3 lines of input represent the dropped square as 9 characters (3 characters per line, 3 lines). An X character represents a block, while a _ character represents empty space. The only Tetrominoes used will be the classic 4 used in Tetris, the 4-block bar being excluded because it does not fit within a 3x3 grid. Shown below are our ASCII representations:
+Games are fun. Winning is more fun. So why don’t we write a program to play the perfect round of tetris? The first 3 lines of input represent the dropped square as 9 characters (3 characters per line, 3 lines). An X character represents a block, while a _ character represents empty space. The only Tetrominoes used will be the classic 4 used in Tetris, the 4-block bar being excluded because it does not fit within a 3x3 grid. Shown below are our ASCII representations:
 ___ ___ ___ ___
 X__ XX_ _XX _X_
 XXX XX_ XX_ XXX
