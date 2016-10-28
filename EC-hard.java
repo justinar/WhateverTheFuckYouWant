@@ -7,6 +7,9 @@ public class Whateverthefuckyouwant {
         populateArray(piece);
         System.out.println("give me what board we're working with please!");
         populateArray(board);
+    
+    
+    
         
 
     }
@@ -30,5 +33,6 @@ public class Whateverthefuckyouwant {
                 }
             }
         }
+        return;
     }
 }
