@@ -1,8 +1,12 @@
 package whateverthifuckyouwant;
 public class Whateverthefuckyouwant {
     Scanner s= new Scanner;
-    int piece[][] = {{0,0,0},{0,0,0},{0,0,0}};
-        int board[][]= {0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0};
+        int piece[][] = {{0,0,0},
+                         {0,0,0},
+                         {0,0,0}};
+        int board[][]= {{0,0,0,0,0,0},
+                        {0,0,0,0,0,0},
+                        {0,0,0,0,0,0};
         System.out.println("give me what your piece looks like mate!");
         populateArray(piece);
         System.out.println("give me what board we're working with please!");
