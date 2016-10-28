@@ -22,6 +22,8 @@ public class Whateverthefuckyouwant {
         Scanner s = new Scanner;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
+                char test = input.nextChar();
+                /*
                 array[i][j] = 3;
                 while (array[i][j] == 3) {
                     switch (input.next()) {
@@ -34,6 +36,7 @@ public class Whateverthefuckyouwant {
                         default:
                             break;
                     }
+                    */
                 }
             }
         }
