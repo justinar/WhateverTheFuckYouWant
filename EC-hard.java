@@ -59,7 +59,7 @@ Scanner input = new Scanner(System.in);
                             array[j][i] = 0;
                         }
                     }
-                }else if (arrayHoldingInputs[i].length() == 3){
+                }else if (arrayHoldingInputs[i].length() == 6){
                     if (j == 0) {
                         if (arrayHoldingInputs[i].charAt(j) == 'x') {
                             array[j][i] = 1;
